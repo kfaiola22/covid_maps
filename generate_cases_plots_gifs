@@ -10,7 +10,7 @@ do
   rmfiles="plots/"$code"CASES*.png"
   rm $rmfiles
 
-  Rscript plot_cases_v3.R $line
+  Rscript plot_cases.R $line
   
   for J in {1..40}
   do

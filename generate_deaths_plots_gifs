@@ -9,7 +9,7 @@ do
   rmfiles="plots/"$code"DEATHS*.png"
   rm $rmfiles
 
-  Rscript plot_deaths_v2.R $line
+  Rscript plot_deaths.R $line
   
   for J in {1..40}
   do
